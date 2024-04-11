@@ -1,0 +1,417 @@
+
+@font-face { 
+  font-family: 'Sofia'; 
+  src: url('./fonts/sofia-pro/Sofia_Pro_Regular.otf') format('opentype'); 
+  font-weight: normal; 
+  font-style: normal; 
+} 
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Sofia";;
+}
+#Header {
+  background: url(./images/banner.png);
+  background-size: cover;
+}
+#Header .logo{
+font-size: 36px;
+line-height: 18px;
+ background: -webkit-linear-gradient(#d492f2 15%, #f5d8cf 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#Header .nav{
+  padding: 20px 40px;
+}
+#Header .navbar ul {
+  list-style-type: none;
+  display: block;
+}
+#Header .navbar ul li{
+  list-style-type: none;
+  display: inline-block;
+  line-height: 36px;
+}
+#Header .navbar ul li:last-child{
+  background-color: #fff;
+  border-radius: 20px;
+}
+#Header .navbar ul li:last-child a{
+  color: #dd9fd7;
+}
+#Header .navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+}
+#Header .bannercopy{
+  padding: 12% 13%;
+}
+#Header .bannercopy h1{
+  font-weight: bold;
+}
+#Header .bannercopy p{
+  margin: 30px 0px;
+}
+#Header .bannercopy .btn-services, #Services .services-blocks .card .btn-services,
+ #Video .video-copy .btn-services, #Gallery .gallery_copy .btn-services{
+padding: 10px 20px;
+text-decoration: none;
+color: #fff;
+border-radius: 23px;
+filter: drop-shadow(0px 13px 17.5px rgba(0,0,0,0.1));
+background-image: linear-gradient(165deg, #dca9fd 0%, #f5d8cf 100%);
+}
+#Services {
+  padding: 50px 0;
+}
+#Services .services_copy h3{
+  font-size: 39px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+#Services .services_copy p, #Services .services-blocks .card p, #Whyus .card p,
+#Video .video-copy p, #Contact .contact-info p, #Gallery .gallery_copy p{
+  line-height: 36px;
+  color: #919ab4;
+  text-align: center;
+}
+#Services .services_copy p {
+  padding: 0% 10%;
+}
+#Services .services-blocks{
+  display: block;
+  padding: 0 90px;
+}
+#Services .services-blocks .card{
+  display: inline-block;
+  margin: 45px 0px 45px 55px;
+  width: 25%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+#Services .services-blocks .protection{
+  box-shadow: inset 0px 23px 34px rgba(0,0,0,0.05);
+  border-bottom-left-radius: 15%;
+}
+#Services .services-blocks .smartcontrol{
+  box-shadow: inset 0px 23px 34px rgba(0,0,0,0.05);
+  border-bottom-right-radius: 15%;
+}
+#Services .services-blocks .card img{ 
+  width: 55px !important;
+  margin: 10px 0;
+  cursor: pointer;
+  shape-rendering: crispEdges;
+}
+#Services .services-blocks .card p, #Whyus .card p, #Video .video-copy p,
+#Contact .contact-info p, #Gallery .gallery_copy p{
+  font-size: 14px;
+  line-height: 26px !important;
+}
+#Video{
+  padding: 20px;
+}
+#Video .video_block{
+  text-align: right;
+}
+#Video .video-copy{
+  padding: 50px 130px 50px 0px;
+}
+#Video .video-copy p,  #Contact .contact-info p, #Gallery .gallery_copy p{
+  text-align: left !important;
+}
+#Video .video_block img{
+  width: 350px;
+  margin-right: 60px;
+}
+#Whyus .card{
+  text-align: center;
+  border: none;
+}
+#Whyus .card img{
+  width: 55px !important;
+  margin: 20% 0 0 40%;
+  cursor: pointer;
+  padding: 10px;
+}
+#Gallery{
+  padding: 40px 0;
+}
+#Gallery .gallery_copy{
+padding-left: 13%;
+}
+#Gallery .gallery_copy h3{
+  font-weight: bold;
+}
+#Gallery .gallery_copy p{
+  padding: 20px 0px;
+}
+#Gallery .gallery-collection{
+  padding: 25px 75px;
+}
+#Gallery .gallery-collection img{
+  width: 100%;
+}
+#Contact{
+  padding: 50px 0;
+}
+#Contact .map{
+  text-align: right;
+}
+#Contact .map iframe{
+  width: 350px;
+  height: 300px;
+  box-shadow: 0px 13px 34px 0px #e5afcd;
+    border-bottom-left-radius: 15%;
+}
+#Contact .contact-info{
+  padding: 40px;
+}
+#Contact .contact-info img{
+ width: 13px;
+ margin-right: 15px;
+}
+#Contact .contact-info td{
+  font-size: 14px;
+}
+#Stayupdate{
+  text-align: center;
+  padding: 150px 0px
+}
+#Stayupdate h3{
+  font-size: 34px;
+  background-color: #d85db0;
+  background-image: linear-gradient(45deg, #d85db0, #f5d8cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+
+}
+#Stayupdate img{
+  width: 40px;
+}
+#Stayupdate .form-subscrib {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+#Stayupdate .subscription{
+  background-color: #f2f2f2;
+}
+#Stayupdate .subscription .email-img{
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 20px;
+  color: #d85db0;
+}
+
+#Stayupdate .content {
+  width: 435px;
+  height: 40px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+#Stayupdate .subscription {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#Stayupdate .subscription .add-email{
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  background-color: #f2f2f2;
+}
+
+#Stayupdate .subscription .submit-email {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: calc(100% - 1px);
+  width: 100px;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  margin: 1px 0px;
+  padding: 0 20px;
+  cursor: pointer;
+  color: #FFFFFF;
+  filter: drop-shadow(0px 13px 17.5px rgba(0,0,0,0.1));
+background-image: linear-gradient(165deg, #dca9fd 0%, #f5d8cf 100%);
+  transition: width .35s ease-in-out,
+    background .35s ease-in-out;
+}
+
+#Stayupdate .subscription.done .submit-email {
+  width: calc(100% - 2px);
+  background-image: linear-gradient(165deg, #dca9fd 0%, #f5d8cf 100%);
+}
+
+#Stayupdate .subscription .submit-email .before-submit,
+#Stayupdate .subscription .submit-email .after-submit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+  transition: visibility .35s ease-in-out,
+    opacity .35s ease-in-out;
+}
+
+#Stayupdate .subscription.done .submit-email .before-submit,
+#Stayupdate .subscription:not(.done) .submit-email .after-submit {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#Stayupdate .subscription .submit-email .after-submit {
+  transition-delay: .35s;
+}
+
+#Stayupdate .subscription:not(.done) .submit-email .before-submit,
+#Stayupdate .subscription.done .submit-email .after-submit {
+  visibility: visible;
+  opacity: 1;
+}
+#Footer{
+  /* padding: 140px 0; */
+  background: url(./images/footer-bg.png);
+  background-size: cover;
+}
+#Footer .footer-table{
+  color: #fff;
+  background-image: linear-gradient(45deg, #dca9fd, #f5d8cf);
+  text-align: center;
+  width: 80%;
+  margin-left: 140px;
+}
+#Footer .footer-table th{ 
+  padding-top: 15px;
+  font-size: 32px;
+  font-weight: 500;
+}
+#Footer .footer-table td{
+  padding-bottom: 15px;
+}
+#Footer .footer-table th,td{
+  margin-left: 30px;
+}
+#Footer .footer-block{
+  width: 80%;
+  margin-left: 20%;
+  padding: 40px 0px;
+  color: #fff;
+}
+#Footer .social-platforms ul{
+  float: left;
+  padding: 0 !important;
+}
+#Footer .social-platforms li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 15px;
+}
+#Footer .footer-block .info h4{
+  padding: 0px 0px 10px;
+}
+#Footer .footer-block .info{
+  width: 50%;
+  float: left;
+}
+#Footer .footer-block .info p{
+  font-size: 14px;
+  line-height: 30px;
+  width: 345px;
+  font-weight: 300;
+}
+#Footer .footer-block .contact-details{
+  /* margin-left: 50%; */
+  width: 50%;
+  float: right;
+}
+#Footer .contact-details .subscription .after-submit{
+visibility: hidden;
+}
+#Footer .subscription{
+  position: relative;
+  width: 75%;
+  height: 100%;
+  background-color: #eed2d7;
+  border-radius: 26px;
+}
+#Footer .subscription .email-img{
+  /* width: 15px; */
+  position: absolute;
+  top: 0;
+  left: 46px;
+  background: #eed2d7;
+  padding: 10px 8px 6px 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#Footer .subscription .add-email{
+  border: none;
+  background-color: #eed2d7;
+  position: absolute;
+  top: 0;
+  left: 76px;
+  padding: 3px;
+}
+#Footer .subscription .submit-email{
+  height: calc(100% - -30px);
+  color: #e5afcd;
+  background-color: #fff !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 4px 3px;
+}
+#Footer .subscription .add-email::placeholder{
+  color: #fff;
+  font-size: 12px;
+  opacity: 1;
+  padding: 0px 6px;
+}
+
+#Footer .subscription.done .submit-email {
+  width: calc(100% - 2px);
+  background-image: linear-gradient(165deg, #fff);
+}
+#Footer .address-details{
+  padding: 50px 110px 50px 0px;
+  float: right;
+  font-size: 14px;
+
+}
+#Footer .address-details tr {
+line-height: 30px;
+}
+#Footer .address-details td span{ 
+  margin-right: 10px;
+}
